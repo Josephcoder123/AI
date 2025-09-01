@@ -20,11 +20,11 @@ Features
 
 **Technologies Used**
 
-   Frontend: Developed using React Native for cross-platform compatibility (iOS and Android).
+   _**Frontend_**: Developed using React Native for cross-platform compatibility (iOS and Android).
 
-   Backend: Built with Python and Flask, utilizing machine learning models for personalized content delivery.
+   _**Backend_**: Built with Python and Flask, utilizing machine learning models for personalized content delivery.
 
-    Database: MySQL for storing user data, study materials, and progress tracking.
+   _**Database_**: MySQL for storing user data, study materials and progress tracking.
 
 
 AI Integration: Utilizes OpenAI's GPT models for natural language processing and content generation.
