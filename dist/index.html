@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Study Buddy - Flashcard Generator</title>
+  <link rel="stylesheet" crossorigin href="/assets/index-D0KoDmfN.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🤖 AI Study Buddy</h1>
+            <p class="subtitle">Transform your notes into interactive flashcards</p>
+        </header>
+
+        <div class="input-section">
+            <label for="studyNotes">Paste your study notes below:</label>
+            <textarea 
+                id="studyNotes" 
+                placeholder="Enter your study material here. The AI will automatically generate flashcards from your content..."
+                rows="8"
+            ></textarea>
+            <button id="generateFlashcards" class="generate-btn">
+                <span class="btn-text">Generate Flashcards</span>
+                <span class="btn-loader" style="display: none;">Generating...</span>
+            </button>
+        </div>
+
+        <div class="flashcards-section">
+            <div class="section-header">
+                <h2>Your Flashcards</h2>
+                <button id="loadFlashcards" class="secondary-btn">Load Saved Cards</button>
+            </div>
+            <div id="flashcardsContainer" class="flashcards-grid"></div>
+        </div>
+
+        <div id="emptyState" class="empty-state">
+            <div class="empty-icon">📚</div>
+            <h3>No flashcards yet</h3>
+            <p>Add your study notes above to generate your first set of flashcards</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
