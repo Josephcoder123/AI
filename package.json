@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "server": "node server/index.js",
-    "dev:full": "npm run server & npm run dev"
+    "dev:full": "concurrently \"npm run server\" \"npm run dev\""
   },
   "keywords": [],
   "author": "",
