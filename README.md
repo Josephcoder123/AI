@@ -2,7 +2,8 @@
 **Project Overview**
 
 The AI Study Buddy is an innovative educational tool designed to enhance the learning experience for students by leveraging artificial intelligence. This application provides personalized study assistance, including generating quizzes, flashcards, and summaries from various educational materials. It aims to support students in their academic journey by making learning more interactive and efficient.
-Features
+
+Features include:
 
 **Personalized Learning**: Adapts to individual learning styles and preferences, providing tailored study plans and resources.
 
