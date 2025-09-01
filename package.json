@@ -1,9 +1,25 @@
-@@ .. @@
-   "scripts": {
--    "test": "echo \"Error: no test specified\" && exit 1"
-+    "dev": "vite",
-+    "build": "vite build",
-+    "preview": "vite preview",
-+    "server": "node server/index.js",
-+    "dev:full": "npm run server & npm run dev"
-   },
+{
+  "name": "ai-study-buddy",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "script.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server/index.js",
+    "dev:full": "npm run server & npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "cors": "^2.8.5"
+  }
+}
