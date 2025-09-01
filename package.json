@@ -1,12 +1,9 @@
-{
-  "name": "project",
-  "version": "1.0.0",
-  "main": "script.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
-}
+@@ .. @@
+   "scripts": {
+-    "test": "echo \"Error: no test specified\" && exit 1"
++    "dev": "vite",
++    "build": "vite build",
++    "preview": "vite preview",
++    "server": "node server/index.js",
++    "dev:full": "npm run server & npm run dev"
+   },
